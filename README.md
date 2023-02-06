@@ -124,46 +124,42 @@ chmod +x install.sh
 
 **Usage:**
 
-​    runner [options]				Operation
+-    runner [options]				Operation
 
-​    runner [options] [file ...]     Operation file 
+-    runner [options] [file ...]     Operation file 
 
-​    runner [options] [options]		Interesting parameter
+-    runner [options] [options]		Interesting parameter
 
 **Options:**
 
---				Author
+- --				Author
 
--u  			Compile programming files
+- -u  			Compile programming files
 
---user
+- --user
 
+- -r 				remove files
 
+- --remove 
 
--r 				remove files
+ -    -re			Empty the files in the trash
 
---remove 
+ -   --remove-empty
 
-​    -re			Empty the files in the trash
+ -    -rr 		Restore the deleted file.
 
-​    --remove-empty
+ -    --remove-restore
 
-​    -rr 		Restore the deleted file.
-
-​    --remove-restore
-
-​    -r[N]		Remove Files
-​           -remove[Files]
+ -    -r[N]		Remove Files
+ -           -remove[Files]
 
 
 
--g 				Some Interesting Games
+- -g 				Some Interesting Games
 
 --game
 
-
-
--h				runner's help
+- -h				runner's help
 
 --help
 
